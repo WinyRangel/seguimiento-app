@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "29758240123",
+    "project_id": "seguimiento-credito",
+    "storage_bucket": "seguimiento-credito.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29758240123:android:35abaae6e64506346bb9de",
+        "android_client_info": {
+          "package_name": "com.vam.seguimiento_credito"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJRRFZA0-SYQH8g2jb-Baxk12aMKZgaec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
