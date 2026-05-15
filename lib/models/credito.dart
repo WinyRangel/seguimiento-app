@@ -17,15 +17,15 @@ class Credito {
 
   // Lista estática de etapas del proceso
   static List<String> etapasProceso = [
-    'COORDINADOR (REVISIÓN)',
-    'EJECUTIVA',
+    //'COORDINADOR (REVISIÓN)',
+    //'EJECUTIVA',
     'MESA DE CONTROL',
     'GERENTE DE OPERACION',
     'TESORERIA (1)',
     'MINISTRACION',
     'CONTROL INTERNO',
     'TESORERIA (2)',
-    'COORDINADOR (CIERRE)',
+    //'COORDINADOR (CIERRE)',
     'PAQUETE',
     'HOJA DE CONTROL'
   ];

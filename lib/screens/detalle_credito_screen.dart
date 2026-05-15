@@ -290,7 +290,7 @@ class _DetalleCreditoScreenState extends State<DetalleCreditoScreen> {
                   slivers: [
                     // App Bar personalizada
                     SliverAppBar(
-                      expandedHeight: 200,
+                      expandedHeight: 10,
                       pinned: true,
                       backgroundColor: colorProgreso,
                       flexibleSpace: FlexibleSpaceBar(
@@ -332,26 +332,29 @@ class _DetalleCreditoScreenState extends State<DetalleCreditoScreen> {
                               ),
                               Padding(
                                 padding: const EdgeInsets.all(20),
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.end,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    const Text(
-                                      'Cliente',
-                                      style: TextStyle(
-                                        color: Colors.white70,
-                                        fontSize: 14,
+                                child: SingleChildScrollView(
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      const Text(
+                                        'Cliente',
+                                        style: TextStyle(
+                                          color: Colors.white70,
+                                          fontSize: 14,
+                                        ),
                                       ),
-                                    ),
-                                    Text(
-                                      _credito.nombreCliente,
-                                      style: const TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 24,
-                                        fontWeight: FontWeight.bold,
+                                      Text(
+                                        _credito.nombreCliente,
+                                        style: const TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 24,
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
-                                    ),
-                                  ],
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],

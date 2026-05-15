@@ -93,6 +93,8 @@ class _ListaCreditosScreenState extends State<ListaCreditosScreen> {
           }
 
           final creditos = snapshot.data ?? [];
+          // Ordenar por fechaInicio descendente (más recientes primero)
+          creditos.sort((a, b) => b.fechaInicio.compareTo(a.fechaInicio));
           final filteredCreditos = _filterCreditos(creditos);
 
           if (creditos.isEmpty) {
